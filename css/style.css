@@ -1,0 +1,101 @@
+.row {
+	max-width: 100rem;
+	text-align: center;
+}
+
+.page {
+	max-width: 100rem;
+	background-image: url("img/tlo.jpeg");
+	background-size: cover;
+	height: 100%;
+	opacity: 0.9;
+}
+.half {
+	padding: 0;
+	height: 100%;
+}
+
+.text {
+	padding: 5% 10% 10% 10%;
+}
+
+.form {
+	background-color: white;
+	border: 2px solid;
+	border-color: #C0D9B4;
+	border-radius: 3px;
+	text-align: center;
+	margin-top:10%;
+	padding: 10px;
+}
+
+#form_account {
+	margin-top: 5%;
+}
+
+form input {
+	padding: 3px;
+	margin: 3px 0;
+	border-radius: 3px;
+	border: solid 1px;
+	border-color: #C0D9B4;
+}
+
+form input:hover {
+	 border: solid 1px #618358;
+ }
+
+.log_in {
+	padding: 5px;
+	background-color: #C0D9B4;
+	border: solid 1px grey;
+	width: 100%;
+	padding:10px;
+	border-radius: 3px;
+}
+ 
+.log_in:hover {
+	background-color: #618358;
+}
+
+.link {
+	decoration: none;
+	color: #C0D9B4;
+	display: inline-block;
+}
+
+.link:hover {
+	color: #618358;
+}
+
+.p_form {
+	display: inline;
+	font-size:12px;
+	line-height:12px;
+	align: justify;
+}
+
+
+.top-bar {
+	margin-bottom:0;
+}
+
+.top-bar a:hover {
+	color: black;
+	background-color: #C0D9B4;
+}
+
+.top-bar .top-bar-left {
+	background: url("img/logomale.png");
+	height:3%;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+}
+
+.ok {
+	color: green;
+	font-size: 12px;
+}
